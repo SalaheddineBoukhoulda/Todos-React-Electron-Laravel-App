@@ -3,7 +3,6 @@ import AddTodo from './components/addtodo';
 import TodoList from './components/todolist';
 import axios from 'axios';
 import './App.css';
-import { debug } from 'util';
 
 const API_URL = 'http://127.0.0.1:8000/api/todos';
 

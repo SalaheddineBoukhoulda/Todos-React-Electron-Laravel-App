@@ -13,10 +13,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "electron" : "electron ."
+    "electron": "electron .",
+    "pack" : "build --dir",
+    "dist": "build"
   },
   "devDependencies": {
     "axios": "^0.18.0",
-    "electron": "^2.0.5"
+    "electron": "^2.0.5",
+    "electron-builder": "^20.25.0"
+  },
+  "build": {
+    "appId" : "com.electrontodo.app",
+    "extends" : null
   }
 }
