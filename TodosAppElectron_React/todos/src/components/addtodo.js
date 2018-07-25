@@ -23,7 +23,7 @@ class AddTodo extends Component{
                     placeholder="Add a todo"
                     onChange={(e) => {this.setState({value : e.target.value})}}
                 />
-                <button onClick={this.add}> </button>
+                <button onClick={this.add}>Add</button>
             </div>
         );
     }
